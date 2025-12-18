@@ -15,15 +15,13 @@ namespace NikRadofemPlayerWindows
             InitializeComponent();
         }
 
-        private void btnClose_Click(object sender, EventArgs e)
-        {
-            this.Close(); // Просто закрываем окно настроек
-        }
-
         private void SettingsForm_Load(object sender, EventArgs e)
         {
-            // Получаем версию прямо из сборки программы (которая указана в свойствах проекта)
             string version = Application.ProductVersion;
+            if (version.Contains("+"))
+            {
+                version = version.Split('+')[0];
+            }
 
             lblVersion.Text = "Версия программы: " + version;
         }

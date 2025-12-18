@@ -344,5 +344,10 @@ namespace NikRadofemPlayerWindows
                 MessageBox.Show("Не удалось открыть ссылку: " + ex.Message);
             }
         }
+
+        private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+
+        }
     }
 }

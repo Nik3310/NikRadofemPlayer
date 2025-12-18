@@ -12,7 +12,6 @@ namespace NikRadofemPlayerWindows
         {
             var assembly = Assembly.GetExecutingAssembly();
 
-            // Загружаем поток ресурса
             using (Stream? stream = assembly.GetManifestResourceStream(resourceName))
             {
                 if (stream == null)

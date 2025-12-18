@@ -6,7 +6,8 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Version>0.5</Version>
+    <Version>0.5.1</Version>
+    <AssemblyTitle>NikRadofem Player</AssemblyTitle>
   </PropertyGroup>
 
   <ItemGroup>

@@ -73,9 +73,9 @@ namespace NikRadofemPlayerWindows.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap email_icon {
+        internal static System.Drawing.Bitmap logowithtext {
             get {
-                object obj = ResourceManager.GetObject("email_icon", resourceCulture);
+                object obj = ResourceManager.GetObject("logowithtext", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,29 @@ namespace NikRadofemPlayerWindows.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap logowithtext {
+        internal static System.Drawing.Bitmap old_email_icon {
             get {
-                object obj = ResourceManager.GetObject("logowithtext", resourceCulture);
+                object obj = ResourceManager.GetObject("old_email_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap old_settings_icon {
+            get {
+                object obj = ResourceManager.GetObject("old_settings_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap old_tracklist_icon {
+            get {
+                object obj = ResourceManager.GetObject("old_tracklist_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

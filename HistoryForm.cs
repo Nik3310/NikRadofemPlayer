@@ -1,17 +1,15 @@
 ﻿using System;
-using System.Collections.Generic; // Важно! Нужно для работы List
+using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace NikRadofemPlayerWindows // Убедись, что тут имя твоего проекта
+namespace NikRadofemPlayerWindows
 {
     public partial class HistoryForm : Form
     {
-        // Изменяем эту строку: добавляем (List<string> history)
         public HistoryForm(List<string> history)
         {
             InitializeComponent();
 
-            // Заполняем список на экране данными, которые нам передали
             foreach (string track in history)
             {
                 listBoxHistory.Items.Add(track);

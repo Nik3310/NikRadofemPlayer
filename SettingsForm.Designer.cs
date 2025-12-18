@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SettingsForm));
             lblVersion = new Label();
-            btnClose = new Button();
             SuspendLayout();
             // 
             // lblVersion
@@ -45,26 +44,12 @@
             lblVersion.Text = "Версия: 0.3.1";
             lblVersion.Click += label1_Click;
             // 
-            // btnClose
-            // 
-            btnClose.FlatStyle = FlatStyle.Flat;
-            btnClose.Font = new Font("Inter 28pt 28pt Medium", 15.75F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            btnClose.ForeColor = SystemColors.ButtonHighlight;
-            btnClose.Location = new Point(635, 397);
-            btnClose.Name = "btnClose";
-            btnClose.Size = new Size(140, 41);
-            btnClose.TabIndex = 1;
-            btnClose.Text = "Закрыть";
-            btnClose.UseVisualStyleBackColor = true;
-            btnClose.Click += btnClose_Click;
-            // 
             // SettingsForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(12, 12, 12);
             ClientSize = new Size(800, 450);
-            Controls.Add(btnClose);
             Controls.Add(lblVersion);
             FormBorderStyle = FormBorderStyle.FixedToolWindow;
             Icon = (Icon)resources.GetObject("$this.Icon");
@@ -79,6 +64,5 @@
         #endregion
 
         private Label lblVersion;
-        private Button btnClose;
     }
 }

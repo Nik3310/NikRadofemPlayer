@@ -153,9 +153,9 @@ namespace NikRadofemPlayerWindows
             pictureBoxSettings.BackColor = Color.FromArgb(17, 17, 17);
             pictureBoxSettings.Cursor = Cursors.Hand;
             pictureBoxSettings.Image = Properties.Resources.settings_icon;
-            pictureBoxSettings.Location = new Point(744, 403);
+            pictureBoxSettings.Location = new Point(697, 395);
             pictureBoxSettings.Name = "pictureBoxSettings";
-            pictureBoxSettings.Size = new Size(34, 35);
+            pictureBoxSettings.Size = new Size(50, 50);
             pictureBoxSettings.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBoxSettings.TabIndex = 9;
             pictureBoxSettings.TabStop = false;
@@ -190,9 +190,9 @@ namespace NikRadofemPlayerWindows
             btnHistory.BackColor = Color.FromArgb(17, 17, 17);
             btnHistory.Cursor = Cursors.Hand;
             btnHistory.Image = Properties.Resources.tracklist_icon;
-            btnHistory.Location = new Point(703, 403);
+            btnHistory.Location = new Point(744, 397);
             btnHistory.Name = "btnHistory";
-            btnHistory.Size = new Size(35, 35);
+            btnHistory.Size = new Size(45, 45);
             btnHistory.SizeMode = PictureBoxSizeMode.Zoom;
             btnHistory.TabIndex = 12;
             btnHistory.TabStop = false;
@@ -203,6 +203,7 @@ namespace NikRadofemPlayerWindows
             notifyIcon1.Icon = (Icon)resources.GetObject("notifyIcon1.Icon");
             notifyIcon1.Text = "NikRadofem";
             notifyIcon1.Visible = true;
+            notifyIcon1.MouseDoubleClick += notifyIcon1_MouseDoubleClick;
             // 
             // pictureBox7
             // 
